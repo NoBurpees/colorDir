@@ -42,3 +42,5 @@ Basically what I'm doing now is
 - if thread ist still running enter a loop and display the spinner frames
 - as soon as thread has finished clear the spinner animation
 - Receive-Job results and clean up thread
+
+	![my Shell](myShell.jpg)
