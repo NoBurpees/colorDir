@@ -9,7 +9,7 @@ PS gave me the sought-after auto-complete with trailing delimiter and support fo
 
 Although Cmd is a pretty limited shell and it violates all the unix philosophies (one task - one tool etc.) it offers one command that is most important to me: 'dir'.
 
-Dir is kind of a swiss army knife for file systems and combines functionality that is split into various tools on other plattforms. It shows directory contents, directory sizes, lets you search for files based on (some kind of) regular expressions and so on. In the end I could not cope with the powershell variants of 'dir', 'ls', 'll', 'Get-ChildItem' etc. The output format was wrong, they wouldn't give me added up sizes, I could not find files traversing subDirs easily, I was not satisfied.
+Dir is kind of a swiss army knife for file systems and combines functionality that is split into various tools on other plattforms. It shows directory contents, directory sizes, free space on device, lets you search for files based on (some kind of) regular expressions and so on. In the end I could not cope with the powershell variants of 'dir', 'ls', 'll', 'Get-ChildItem' etc. The output format was wrong, they wouldn't give me added up sizes, I could not find files traversing subDirs easily, I was not satisfied.
 
 AND: I wanted to have colorized output, like ls in bash or others. Two problems, that really bugged me.
 
