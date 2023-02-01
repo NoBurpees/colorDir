@@ -1,13 +1,13 @@
 # colorDir
 Use format and functionality of the old 'dir' command from cmd.exe in powershell and add content based colors
 
-After long years running lots of stuff on cmd.exe I finally felt the need for a change because I saw the Tab-based auto-complete of other shells. Cmd offered some comfort here, too but could not match the others because it wouldn't add the trailing '\' after completion and would only accept the backslash, which is awkward to enter on a german keyboard.
+After long years running lots of stuff on cmd.exe I finally felt the need for a change because I saw the Tab-based auto-complete of other shells. Cmd offered some comfort here, too but could not match the others because it wouldn't add the trailing '\\' after completion and would only accept the backslash, which is awkward to enter on a german keyboard.
 
 I tried MinGW and other unix-like shells but in the end they all had various drawbacks or the philosophy and/or output of tools etc. was not to my liking. So Powershell it was!
 
 PS gave me the sought-after auto-complete with trailing delimiter and support for slash instead of backslash. It felt pretty cool, it was modern... perfect... NOT!
 
-Although Cmd is a pretty limited shell and it violates all the unix philosophies (one tast - one tool etc.) it offers one command that is most important to me: 'dir'.
+Although Cmd is a pretty limited shell and it violates all the unix philosophies (one task - one tool etc.) it offers one command that is most important to me: 'dir'.
 
 Dir is kind of a swiss army knife for file systems and combines functionality that is split into various tools on other plattforms. It shows directory contents, directory sizes, lets you search for files based on (some kind of) regular expressions and so on. In the end I could not cope with the powershell variants of 'dir', 'ls', 'll', 'Get-ChildItem' etc. The output format was wrong, they wouldn't give me added up sizes, I could not find files traversing subDirs easily, I was not satisfied.
 
