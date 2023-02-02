@@ -43,4 +43,8 @@ Basically what I'm doing now is
 - as soon as thread has finished clear the spinner animation
 - Receive-Job results and clean up thread
 
+## Fancy icons
+
+To spice up things a bit I decided to decorate the different file types and folders with icons from the installed nerd font. To do so I added some regexes to insert the corresponding icons before the file name - looks fancy ;-)
+
 	![my Shell](myShell2.jpg)
