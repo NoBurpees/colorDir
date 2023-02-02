@@ -43,4 +43,4 @@ Basically what I'm doing now is
 - as soon as thread has finished clear the spinner animation
 - Receive-Job results and clean up thread
 
-	![my Shell](myShell.jpg)
+	![my Shell](myShell2.jpg)
